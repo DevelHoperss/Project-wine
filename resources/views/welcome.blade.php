@@ -42,34 +42,34 @@
     </header>
     
     <!-- PRIMA SEZIONE SOTTO HEADER -->
-    <section class="container-fluid ">
+    <section class="container-fluid mt-5">
         
         <div class="row">
             
-            <div class="col-12 col-md-5 offset-1 text-center ">
+            <div class="col-12 col-md-5 offset-1  d-flex align-items-center  ">
                 
-                <p style="font-weight: bold;"> 
+                <ul> 
                     
-                    Zona di Produzione: Località Matine, nel territorio di Mottola (300 m s.l.m.).
+                    <li><span class="fw-bold">Zona di Produzione</span>: Località Matine, nel territorio di Mottola (300 m s.l.m.).</li>
                     
-                    Suolo: Argilloso, ricco di scheletro.
+                    <li><span class="fw-bold">Suolo</span>: Argilloso, ricco di scheletro.</li>
                     
-                    Sistema di allevamento: Guyot.
+                    <li><span class="fw-bold">Sistema di allevamento</span>: Guyot.</li>
                     
-                    Vitigni: 100% Primitivo.
+                    <li><span class="fw-bold">Vitigni</span>: 100% Primitivo.</li>
                     
-                    Produzione per ettaro: 110 q.li/ha.
+                    <li><span class="fw-bold">Produzione per ettaro</span>: 110 q.li/ha.</li>
                     
-                    Epoca di vendemmia: Prima decade di Settembre. 
+                    <li><span class="fw-bold">Epoca di vendemmia</span>: Prima decade di Settembre.</li> 
                     
-                    Raccolta: Manuale. 
-                </p>
+                    <li><span class="fw-bold">Raccolta</span>: Manuale.</li> 
+                </ul>
                 
             </div>
             
             <div class="col-12 col-md-5 offset-1 text-center">
                 
-                <p> IMMAGINE </p>
+                <img class="img-section-custom shadow" src="media/bottiglia-bicchiere.jpg" alt="">
                 
             </div>
             
@@ -85,12 +85,15 @@
 
             <div class="col-12 col-md-5 offset-1 text-center">
                 
-                <p> IMMAGINE </p>
+                <img class="img-section-custom shadow" src="media/bottiglia.jpg" alt="">
                 
             </div>
             
-            <div class="col-12 col-md-5 offset-1">
-                <p style="font-weight: bold;"> Vinificazione e affinamento: Le uve Primitivo, vengono raccolte manualmente in piccoli cassoni e portate in cantina dove fermentano per circa 7 giorni. Sucessivamente il vino viene affinato in piccoli serbatoi di acciaio inox. Prima di essere messo in vendita, riposa in bottiglia per circa 2 mesi. </p>
+            <div class="col-12 col-md-5 offset-1 d-flex align-items-center justify-content-center flex-column mt-5">
+
+                <p class="fw-bolder">Vinificazione e affinamento</p>
+
+                <p class=""> Vinificazione e affinamentoLe uve Primitivo, vengono raccolte manualmente in piccoli cassoni e portate in cantina dove fermentano per circa 7 giorni. Sucessivamente il vino viene affinato in piccoli serbatoi di acciaio inox. Prima di essere messo in vendita, riposa in bottiglia per circa 2 mesi. </p>
             </div> 
             
         </div>
@@ -102,27 +105,20 @@
         
         <div class="row">
             
-            <div class="col-12 col-md-5 offset-1">
-                
-                <p>Caratteristiche Organolettiche
-                    
-                    Colore: Rosso porpora.
-                    
-                    Olfatto: Fruttato con note di mirtillo, ciliegia e prugna.
-                    
-                    Palato: Gusto fresco e morbido, avvolgente, di buona struttura e di pronta beva.
-                    
-                    
-                    
-                    Grado alcolico: 13,5% vol.
-                    
-                    Temperatura di servizio: 16-18 °C.</p>
-                    
+            <div class="col-12 col-md-5 offset-1 d-flex justify-content-center align-items-center flex-column ">
+                <p class="fw-bold">Caratteristiche Organolettiche</p>
+                <ul>                    
+                    <li><span class="fw-bold">Colore</span>: Rosso porpora.</li>
+                    <li><span class="fw-bold">Olfatto</span>: Fruttato con note di mirtillo, ciliegia e prugna.</li>                   
+                    <li><span class="fw-bold">Palato</span>: Gusto fresco e morbido, avvolgente, di buona struttura e di pronta beva.</li>                    
+                    <li><span class="fw-bold">Grado alcolico</span>: 13,5% vol.</li>                   
+                    <li><span class="fw-bold">Temperatura di servizio</span>: 16-18 °C.</li>
+                </ul> 
                 </div>
 
                 <div class="col-12 col-md-5 d-flex justify-content-center offset-1">
                 
-                    <i class="fa-solid fa-bottle-droplet fa-5x"></i>
+                    <img class="img-section-custom shadow" src="media/bottiglia-pasta.jpg" alt="">
                     
                 </div>
                 

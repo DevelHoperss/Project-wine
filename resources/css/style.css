@@ -31,7 +31,12 @@
 .img_casolare{
     width: 80%;
 }
-
+ .img-section-custom{
+    width: 17vw;
+    height: 40vh;
+    border: 2px solid white ;
+    border-radius: 50%;
+ }
 
 /* ANIMAZIONE GOCCIA */
 body {

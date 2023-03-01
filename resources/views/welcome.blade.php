@@ -1,17 +1,17 @@
 <x-layout> 
     
     <!-- HEADER --> {{-- CAROSELLO --}}
-    <header class="header_custom">
+    <header>
         
-        <section class="container">
+        <section class="container-fluid header_custom">
+            
+            <h1 class="text-center"> FIRÀ </h1>
             
             <div class="row">
                 
-                <div class="col-12">
+                <div class="col-12 col-md-12 d-flex justify-content-center">
                     
-                    <h1 class="text-center"> FIRÀ </h1>
-                    
-                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div id="carouselExampleInterval" class="carousel slide w-100" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active" data-bs-interval="4000">
                                 <img src="media/1.jpg" class="d-block img_carousel_custom" alt="...">
@@ -46,8 +46,8 @@
         
         <div class="row">
             
-            <div class="col-12 col-md-5 text-center d-flex justify-content-center">
-
+            <div class="col-12 col-md-5 offset-1 text-center ">
+                
                 <p style="font-weight: bold;"> 
                     
                     Zona di Produzione: Località Matine, nel territorio di Mottola (300 m s.l.m.).
@@ -67,7 +67,7 @@
                 
             </div>
             
-            <div class="col-12 col-md-5">
+            <div class="col-12 col-md-5 offset-1 text-center">
                 
                 <p> IMMAGINE </p>
                 
@@ -82,34 +82,27 @@
     <div class="container-fluid mt-5">
         
         <div class="row">
-            
-            <div class="col-12 col-md-5">
-                <p style="font-weight: bold;"> Vinificazione e affinamento: Le uve Primitivo, vengono raccolte manualmente in piccoli cassoni e portate in cantina dove fermentano per circa 7 giorni. Sucessivamente il vino viene affinato in piccoli serbatoi di acciaio inox. Prima di essere messo in vendita, riposa in bottiglia per circa 2 mesi. </p>
-            </div>
-            
-            <div class="col-12 col-md-5">
+
+            <div class="col-12 col-md-5 offset-1 text-center">
                 
                 <p> IMMAGINE </p>
                 
             </div>
+            
+            <div class="col-12 col-md-5 offset-1">
+                <p style="font-weight: bold;"> Vinificazione e affinamento: Le uve Primitivo, vengono raccolte manualmente in piccoli cassoni e portate in cantina dove fermentano per circa 7 giorni. Sucessivamente il vino viene affinato in piccoli serbatoi di acciaio inox. Prima di essere messo in vendita, riposa in bottiglia per circa 2 mesi. </p>
+            </div> 
             
         </div>
         
     </div>
     
     <!-- TERZA SEZIONE SOTTO HEADER -->
-    
     <section class="container-fluid mt-5">
         
         <div class="row">
             
-            <div class="col-12 col-md-5 d-flex justify-content-center">
-                
-                <i class="fa-solid fa-bottle-droplet fa-5x"></i>
-                
-            </div>
-            
-            <div class="col-12 col-md-5">
+            <div class="col-12 col-md-5 offset-1">
                 
                 <p>Caratteristiche Organolettiche
                     
@@ -124,6 +117,12 @@
                     Grado alcolico: 13,5% vol.
                     
                     Temperatura di servizio: 16-18 °C.</p>
+                    
+                </div>
+
+                <div class="col-12 col-md-5 d-flex justify-content-center offset-1">
+                
+                    <i class="fa-solid fa-bottle-droplet fa-5x"></i>
                     
                 </div>
                 

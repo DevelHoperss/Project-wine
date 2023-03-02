@@ -1,4 +1,7 @@
 
+body{
+    background-color: #6f1023d6;
+}
 /* IMMAGINE HEADER */
 
 .logo_custom{
@@ -15,15 +18,35 @@
     background-color: #E9E8E8;
 }
 
-
 /* SEZIONE SOTTO HEADER */
+
+h2{
+    color: darkred;
+}
+
+.h3-custom{
+    color: darkred;
+    font-style: italic;
+}
 
 .img_casolare{
     width: 80%;
 }
 
 .header_custom{
-    background: linear-gradient(to bottom, #20262E 80%, #E9E8E8);
+    height: 40vh;
+    background: linear-gradient(to bottom, #20262e 80%, #E9E8E8);
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.section-custom{
+    height: 60vh;
+    background: linear-gradient(to bottom, #E9E8E8, transparent, transparent, transparent,#E9E8E8), url(/public/media/vigneto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
 }
 
  .img-section-custom{
@@ -34,7 +57,19 @@
     border: 2px solid darkred;
  }
 
- .img-card-custom {
+ .img-card1-custom {
+    background-image: url(/public/media/1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 28vw;
+    height: 28vw;
+    border: 2px solid darkred;
+    padding: 10px;
+ }
+
+ .img-card2-custom {
     background-image: url(/public/media/casolare.jpg);
     background-position: center;
     background-size: cover;
@@ -45,6 +80,22 @@
     border: 2px solid darkred;
     padding: 10px;
  }
+
+ .img-card3-custom {
+    background-image: url(/public/media/bottiglia-singola.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 28vw;
+    height: 28vw;
+    border: 2px solid darkred;
+    padding: 10px;
+ }
+
+.ul-custom{
+    list-style: none;
+}
 
 /* ANIMAZIONE GOCCIA */
 

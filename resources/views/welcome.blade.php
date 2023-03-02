@@ -1,8 +1,7 @@
 <x-layout>
     
     
-    <!-- HEADER --> {{-- CAROSELLO --}}
-    
+    <!-- HEADER --> 
     
     <!-- SEZIONE GOCCIA -->
     {{-- <div class="container-fluid div_goccia" id="preloader">
@@ -17,11 +16,11 @@
         </div>
     </div> --}}
     
-    <header class="header_custom mt-4 rounded">
+    <header class="header_custom mt-4">
         
         <section>
             
-            <div class="d-flex justify-content-center">
+            <div class="d-flex justify-content-center flex-column align-items-center">
                 
                 <img src="media/fira-titolo.png" class="logo_custom" alt="">
                 
@@ -61,39 +60,43 @@
         
     </header>
     
+    <section class="section-custom">
+        <h3 class="h3-custom text-center fs-1">Primitivo Amabile</h3>
+    </section>
     
     
     <!-- PRIMA SEZIONE SOTTO HEADER -->
-    <section class="body_custom shadow rounded">
+    <section class="body_custom shadow">
 
     <section class="container-fluid">
         
         <div class="row">
             
-            <div class="col-12 col-md-5 offset-md-1  d-flex align-items-center  ">
-                
-                <ul>
+            <div data-aos="fade-down-right" class="col-12 col-md-5 offset-md-1 text-center d-flex justify-content-center align-items-center flex-column" >
+
+                <h2 class="fw-bold">Zona di Produzione</h2>
+
+                <ul class="ul-custom fs-5">
+                    <li>Località Matine, nel territorio di Mottola (300 m s.l.m.)</li>
                     
-                    <li><span class="fw-bold">Zona di Produzione</span>: Località Matine, nel territorio di Mottola (300 m s.l.m.).</li>
+                    <li> Suolo: Argilloso, ricco di scheletro.</li>
                     
-                    <li><span class="fw-bold">Suolo</span>: Argilloso, ricco di scheletro.</li>
+                    <li>Sistema di allevamento: Guyot.</li>
                     
-                    <li><span class="fw-bold">Sistema di allevamento</span>: Guyot.</li>
+                    <li>Vitigni: 100% Primitivo.</li>
                     
-                    <li><span class="fw-bold">Vitigni</span>: 100% Primitivo.</li>
+                    <li>Produzione per ettaro: 110 q.li/ha.</li>
                     
-                    <li><span class="fw-bold">Produzione per ettaro</span>: 110 q.li/ha.</li>
+                    <li>Epoca di vendemmia: Prima decade di Settembre.</li>
                     
-                    <li><span class="fw-bold">Epoca di vendemmia</span>: Prima decade di Settembre.</li>
-                    
-                    <li><span class="fw-bold">Raccolta</span>: Manuale.</li>
+                    <li>Raccolta: Manuale.</li>
                 </ul>
                 
             </div>
             
-            <div class="col-12 col-md-5 offset-md-1 text-center">
+            <div data-aos="fade-down-left" class="col-12 col-md-5 offset-md-1 text-center img-card1-custom">
                 
-                <img class="img-section-custom shadow" src="media/1.jpg" alt="">
+                {{-- <img class="img-section-custom shadow" src="media/1.jpg" alt=""> --}}
                 
             </div>
             
@@ -107,17 +110,17 @@
         
         <div class="row">
             
-            <div class="col-12 col-md-5 offset-md-1 text-center img-card-custom">
+            <div data-aos="fade-down-right" class="col-12 col-md-5 offset-md-1 text-center img-card2-custom">
                 
                 {{-- <img class="img-section-custom shadow" src="media/casolare.jpg" alt=""> --}}
                 
             </div>
             
-            <div class="col-12 col-md-5 offset-md-1 d-flex align-items-center justify-content-center flex-column mt-5">
+            <div data-aos="fade-down-left" class="col-12 col-md-5 offset-md-1 text-center d-flex align-items-center justify-content-center flex-column mt-5">
                 
-                <p class="fw-bolder">Vinificazione e affinamento</p>
+                <h2 class="fw-bolder">Vinificazione e affinamento</h2>
                 
-                <p class=""> Vinificazione e affinamentoLe uve Primitivo, vengono raccolte manualmente in piccoli cassoni e portate in cantina dove fermentano per circa 7 giorni. Sucessivamente il vino viene affinato in piccoli serbatoi di acciaio inox. Prima di essere messo in vendita, riposa in bottiglia per circa 2 mesi. </p>
+                <p class="fs-5"> Vinificazione e affinamentoLe uve Primitivo, vengono raccolte manualmente in piccoli cassoni e portate in cantina dove fermentano per circa 7 giorni. Sucessivamente il vino viene affinato in piccoli serbatoi di acciaio inox. Prima di essere messo in vendita, riposa in bottiglia per circa 2 mesi. </p>
             </div>
             
         </div>
@@ -129,20 +132,20 @@
         
         <div class="row">
             
-            <div class="col-12 col-md-5 offset-md-1 d-flex justify-content-center align-items-center flex-column ">
-                <p class="fw-bold">Caratteristiche Organolettiche</p>
-                <ul>
-                    <li><span class="fw-bold">Colore</span>: Rosso porpora.</li>
-                    <li><span class="fw-bold">Olfatto</span>: Fruttato con note di mirtillo, ciliegia e prugna.</li>
-                    <li><span class="fw-bold">Palato</span>: Gusto fresco e morbido, avvolgente, di buona struttura e di pronta beva.</li>
-                    <li><span class="fw-bold">Grado alcolico</span>: 13,5% vol.</li>
-                    <li><span class="fw-bold">Temperatura di servizio</span>: 16-18 °C.</li>
+            <div data-aos="fade-down-right" class="col-12 col-md-5 offset-md-1 text-center d-flex justify-content-center align-items-center flex-column">
+                <h2 class="fw-bold">Caratteristiche Organolettiche</h2>
+                <ul class="ul-custom fs-5">
+                    <li>Colore: Rosso porpora.</li>
+                    <li>Olfatto: Fruttato con note di mirtillo, ciliegia e prugna.</li>
+                    <li>Palato: Gusto fresco e morbido, avvolgente, di buona struttura e di pronta beva.</li>
+                    <li>Grado alcolico: 13,5% vol.</li>
+                    <li>Temperatura di servizio: 16-18 °C.</li>
                 </ul>
             </div>
             
-            <div class="col-12 col-md-5 d-flex justify-content-center offset-md-1">
+            <div data-aos="fade-down-left" class="col-12 col-md-5 d-flex justify-content-center offset-md-1 img-card3-custom">
                 
-                <img class="img-section-custom shadow" src="media/bottiglia-singola.jpg" alt="">
+                {{-- <img class="img-section-custom shadow" src="media/bottiglia-singola.jpg" alt=""> --}}
                 
             </div>
             

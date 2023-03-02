@@ -1,48 +1,43 @@
 
 /* IMMAGINE HEADER */
-/* .img_header{
-    width: 100%;
-    height: 50%;
-    border-radius: 20px;
-} */
 
-.h1_header{
-    /* position: absolute; */
-    font-family: 'Source Serif Pro', serif;
-    font-size: 6vh;
-    top: 2%;
+.logo_custom{
+    height: 20vh;
 }
+
 
 .img_carousel_custom{
     width: 100%;
     height: 80vh;
 }
 
-.header_custom{
-    margin-top: 4vh;
-    height: 90vh;
-    /* min-width: 100%; */
-    /* max-width: 60vw; */
-    width: 100%;
+.body_custom{
+    background-color: #E9E8E8;
 }
+
 
 /* SEZIONE SOTTO HEADER */
 
 .img_casolare{
     width: 80%;
 }
+
+.header_custom{
+    background: linear-gradient(to bottom, #20262E 80%, #d7d4d4 10%, #E9E8E8 10%);
+}
+
  .img-section-custom{
     width: 17vw;
     height: 40vh;
     border: 2px solid white ;
-    border-radius: 50%;
+    border-radius: 40%;
+    border: 2px solid darkred;
+    padding: 10px;
+    margin: 50px;
  }
 
 /* ANIMAZIONE GOCCIA */
-body {
-    background-color: rgba(111,16,35,0.7);
-    /* overflow: hidden; */
-}
+
 
 .div_goccia {
     margin: 175px auto;
@@ -227,3 +222,4 @@ body {
         }
 }
 }
+

@@ -13,8 +13,10 @@
     @vite(['resources/css/app.css' , 'resources/js/app.js'])
 
     <title> Firà </title>
+
 </head>
-<body>
+
+<body class="container">
 
     <x-navbar/>
 

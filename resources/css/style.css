@@ -52,7 +52,7 @@ body {
     position: relative;
     width: 20px;
     height: 20px;
-    top: -30px;
+    /* top: -30px; */
     margin: 0 auto;
     background: #6f1023;
     -moz-border-radius: 20px;
@@ -160,6 +160,9 @@ body {
 }
 
 @keyframes drip {
+    from{
+        top:0px;
+    }
     to {
         top: 190px;
     }
@@ -182,9 +185,45 @@ body {
         height: 60%;
         border-radius: 0px;
     }
-    
+
     .header_index{
         max-height: 35vh;
     }
+    @keyframes ripple {
+        from {
+            opacity: 1;
+        }
+        to {
+            width: 300px;
+            height: 150px;
+            border-width: 1px;
+            top: -100px;
+            opacity: 0;
+        }
+    }
 
+    @keyframes ripple-2 {
+        0% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+        100% {
+            width: 100px;
+            height: 60px;
+            border-width: 1px;
+            top: 30px;
+            left: 100px;
+        }
+    }
+
+    @keyframes drip {
+        from{
+            top:0px;
+        }
+        to {
+            top: 90px;
+        }
+}
 }

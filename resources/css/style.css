@@ -2,7 +2,7 @@
 /* IMMAGINE HEADER */
 
 .logo_custom{
-    height: 20vh;
+    width: 20%;
 }
 
 
@@ -23,17 +23,27 @@
 }
 
 .header_custom{
-    background: linear-gradient(to bottom, #20262E 80%, #d7d4d4 10%, #E9E8E8 10%);
+    background: linear-gradient(to bottom, #20262E 80%, #E9E8E8);
 }
 
  .img-section-custom{
-    width: 17vw;
+    width: 50%;
     height: 40vh;
     border: 2px solid white ;
     border-radius: 40%;
     border: 2px solid darkred;
+ }
+
+ .img-card-custom {
+    background-image: url(/public/media/casolare.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 28vw;
+    height: 28vw;
+    border: 2px solid darkred;
     padding: 10px;
-    margin: 50px;
  }
 
 /* ANIMAZIONE GOCCIA */

@@ -107,9 +107,9 @@
         
         <div class="row">
             
-            <div class="col-12 col-md-5 offset-md-1 text-center">
+            <div class="col-12 col-md-5 offset-md-1 text-center img-card-custom">
                 
-                <img class="img-section-custom shadow" src="media/casolare.jpg" alt="">
+                {{-- <img class="img-section-custom shadow" src="media/casolare.jpg" alt=""> --}}
                 
             </div>
             

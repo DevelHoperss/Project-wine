@@ -21,7 +21,8 @@ html{
   }
   
   .bg-body-custom{
-    background-color: var(--paletteBody);
+    /* background-color: var(--paletteBody); */
+    background-color: antiquewhite;
   }
   
   .bg-page-custom{
@@ -51,9 +52,11 @@ html{
     height: 80vh;
 }
 
-.bg-body-custom{
-    background-color: #635985;
+.container-custom{
+    min-width: 90vw;
 }
+
+
 
 /* SEZIONE SOTTO HEADER */
 
@@ -78,7 +81,7 @@ h2{
 }
 
 .header_custom{
-    height: 30vh;
+    height: 40vh;
     background: linear-gradient(to bottom, #18122B 95%, #e9e8e8ef);
     /* background-color: var(--paletteHeader); */
     border-top-right-radius: 25px;

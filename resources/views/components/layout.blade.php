@@ -15,13 +15,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,600&display=swap" rel="stylesheet">
 
-    @vite(['resources/css/app.css' , 'resources/js/app.js', 'resources/sass/app.scss'])
+    @vite(['resources/css/app.css' , 'resources/js/app.js'])
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title> Firà </title>
 
 </head>
 
-<body class="container body-custom">
+<body class="container container-custom body-custom">
 
     <x-navbar/>
 

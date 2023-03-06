@@ -20,7 +20,7 @@
         
         <section>
             
-            <div class="d-flex justify-content-center flex-column align-items-center">
+            <div class="d-flex justify-content-center align-items-center">
                 
                 <img src="media/fira-titolo.png" class="logo_custom" alt="">
                 
@@ -157,7 +157,7 @@
 
 {{-- SEZIONE DICONO DI NOI --}}
 
-<section class="body_custom review_custom">
+<section class="bg-body-custom mt-5 review_custom">
 
     <div class="row justify-content-around">
 
@@ -167,7 +167,7 @@
 
         </div>
 
-        <div class="col-12 col-md-4  texts-custom fw-bold">
+        <div class="col-12 col-md-4 ps-5 texts-custom fw-bold">
 
             <img src="/media/Recensione1.jpg" class="img_recensione_custom" alt="">
 
@@ -176,7 +176,7 @@
         </div>
 
         
-        <div class="col-12 col-md-4 texts-custom fw-bold">
+        <div class="col-12 col-md-4 ps-5 texts-custom fw-bold">
 
             <img src="/media/Recensione2.jpg" class="img_recensione_custom" alt="">
 
@@ -185,7 +185,7 @@
         </div>
 
         
-        <div class="col-12 col-md-4 texts-custom fw-bold">
+        <div class="col-12 col-md-4 ps-5 texts-custom fw-bold">
 
             <img src="/media/Recensione3.jpg" class="img_recensione_custom" alt="">
 

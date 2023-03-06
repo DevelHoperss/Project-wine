@@ -70,13 +70,13 @@
 
     <section class="container-fluid">
         
-        <div class="row row_custom1 pt-5 justify-content-around">
+        <div class="row  py-5 justify-content-around">
             
-            <div data-aos="fade-right" class="col-12 col-md-5 text-center d-flex justify-content-center align-items-center flex-column" >
+            <div data-aos="fade-right" data-aos-duration="1500" class="col-12 col-md-5 text-center d-flex justify-content-center align-items-center flex-column" >
 
                 <h2 class="fw-bold">Zona di Produzione</h2>
 
-                <ul class="ul-custom fs-5 texts-custom fw-bold">
+                <ul class="ul-custom fs-5 texts-custom text-start">
                     <li>Località Matine, nel territorio di Mottola (300 m s.l.m.)</li>
                     
                     <li> Suolo: Argilloso, ricco di scheletro.</li>
@@ -94,7 +94,7 @@
                 
             </div>
             
-            <div data-aos="fade-left" class="col-12 col-md-5 text-center img-card1-custom">
+            <div data-aos="fade-left" data-aos-duration="1500" class="col-12 col-md-5 text-center img-card1-custom">
                 
                 {{-- <img class="img-section-custom shadow" src="media/1.jpg" alt=""> --}}
                 
@@ -106,18 +106,18 @@
     
     
     <!-- SECONDA SEZIONE SOTTO HEADER -->
-    <div class="container-fluid mt-5">
+    <div class="container-fluid mt-5 mb-5">
         
-        <div class="row row_custom2 justify-content-around">
+        <div class="row justify-content-around py-5">
               
-            <div data-aos="fade-left" class="col-12 col-md-5 text-center d-flex align-items-center justify-content-center flex-column mt-5 secondSection_divCustom">
+            <div data-aos="fade-left" data-aos-duration="1500" class="col-12 col-md-5 text-center d-flex align-items-center justify-content-center flex-column mt-5 secondSection_divCustom">
                 
                 <h2 class="fw-bolder">Vinificazione e affinamento</h2>
                 
-                <p class="fs-5 texts-custom fw-bold"> Vinificazione e affinamentoLe uve Primitivo, vengono raccolte manualmente in piccoli cassoni e portate in cantina dove fermentano per circa 7 giorni. Sucessivamente il vino viene affinato in piccoli serbatoi di acciaio inox. Prima di essere messo in vendita, riposa in bottiglia per circa 2 mesi. </p>
+                <p class="fs-5 texts-custom  text">Le uve Primitivo, vengono raccolte manualmente in piccoli cassoni e portate in cantina dove fermentano per circa 7 giorni. Sucessivamente il vino viene affinato in piccoli serbatoi di acciaio inox. Prima di essere messo in vendita, riposa in bottiglia per circa 2 mesi. </p>
             </div>
 
-            <div data-aos="fade-right" class="col-12 col-md-5 text-center img-card2-custom order-lg-first">
+            <div data-aos="fade-right" data-aos-duration="1500" class="col-12 col-md-5 text-center img-card2-custom order-lg-first">
                 
                 {{-- <img class="img-section-custom shadow" src="media/casolare.jpg" alt=""> --}}
                 
@@ -130,11 +130,11 @@
     <!-- TERZA SEZIONE SOTTO HEADER -->
     <section class="container-fluid mt-5 thirdContainerCustom">
         
-        <div class="row row_custom3 justify-content-around">
+        <div class="row justify-content-around py-5">
             
-            <div data-aos="fade-right" class="col-12 col-md-5 text-center d-flex justify-content-center align-items-center flex-column">
+            <div data-aos="fade-right" data-aos-duration="2000" class="col-12 col-md-5 text-center d-flex justify-content-center align-items-center flex-column">
                 <h2 class="fw-bold">Caratteristiche Organolettiche</h2>
-                <ul class="ul-custom fs-5 texts-custom fw-bold">
+                <ul class="ul-custom texts-custom ">
                     <li>Colore: Rosso porpora.</li>
                     <li>Olfatto: Fruttato con note di mirtillo, ciliegia e prugna.</li>
                     <li>Palato: Gusto fresco e morbido, avvolgente, di buona struttura e di pronta beva.</li>
@@ -143,7 +143,7 @@
                 </ul>
             </div>
             
-            <div data-aos="fade-left" class="col-12 col-md-5 text-center img-card3-custom">
+            <div data-aos="fade-left" data-aos-duration="1500" class="col-12 col-md-5 text-center img-card3-custom">
                 
                 {{-- <img class="img-section-custom shadow" src="media/bottiglia-singola.jpg" alt=""> --}}
                 

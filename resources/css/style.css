@@ -1,9 +1,9 @@
-
-/* BLOCCO SCROLL LATERALE */
-
-html{
-    overflow-x: hidden;
+* {
+    font-family: 'Montserrat', sans-serif;
 }
+
+
+
 
 /* PRESET Colori e fonts*/
 
@@ -64,16 +64,17 @@ h2{
     color: darkred;
     font-family: 'Dancing Script', cursive;
     letter-spacing: 5px;
-
+    font-size: 3rem;
 }
 
 .h3-custom{
     color: darkred;
-    font-style: italic;
-    font-size: 60px;
+    font-size: 4rem;
     position: relative;
     top: 35%;
     right: 20%;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
 }
 
 .img_casolare{
@@ -90,7 +91,7 @@ h2{
 
 .section-custom{
     height: 60vh;
-    background: linear-gradient(to bottom, #e9e8e8dd, transparent, transparent, transparent,#e9e8e8c2), url(/public/media/vigneto.jpg);
+    background: linear-gradient(to bottom, #e9e8e8dd, transparent, transparent, antiquewhite), url(/public/media/vigneto.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -140,9 +141,6 @@ h2{
     padding: 10px;
  }
 
- .row_custom3{
-    height: 60vh;
- }
 
 .ul-custom{
     list-style: none;
@@ -332,7 +330,7 @@ h2{
 
 @media screen and (max-width: 700px) {
 
-    html{
+    *{
         overflow-x: hidden;
     }
 
@@ -349,7 +347,7 @@ h2{
     }
 
     .h3-custom{
-        font-size: 50px;
+        font-size: 2rem;
     }
 
     .img_header{

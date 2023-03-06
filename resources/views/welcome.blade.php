@@ -72,7 +72,7 @@
         
         <div class="row row_custom1 pt-5 justify-content-around">
             
-            <div data-aos="fade-down-right" class="col-12 col-md-5 text-center d-flex justify-content-center align-items-center flex-column" >
+            <div data-aos="fade-right" class="col-12 col-md-5 text-center d-flex justify-content-center align-items-center flex-column" >
 
                 <h2 class="fw-bold">Zona di Produzione</h2>
 
@@ -94,7 +94,7 @@
                 
             </div>
             
-            <div data-aos="fade-down-left" class="col-12 col-md-5 text-center img-card1-custom">
+            <div data-aos="fade-left" class="col-12 col-md-5 text-center img-card1-custom">
                 
                 {{-- <img class="img-section-custom shadow" src="media/1.jpg" alt=""> --}}
                 
@@ -110,14 +110,14 @@
         
         <div class="row row_custom2 justify-content-around">
               
-            <div data-aos="fade-down-left" class="col-12 col-md-5 text-center d-flex align-items-center justify-content-center flex-column mt-5 secondSection_divCustom">
+            <div data-aos="fade-left" class="col-12 col-md-5 text-center d-flex align-items-center justify-content-center flex-column mt-5 secondSection_divCustom">
                 
                 <h2 class="fw-bolder">Vinificazione e affinamento</h2>
                 
                 <p class="fs-5 texts-custom fw-bold"> Vinificazione e affinamentoLe uve Primitivo, vengono raccolte manualmente in piccoli cassoni e portate in cantina dove fermentano per circa 7 giorni. Sucessivamente il vino viene affinato in piccoli serbatoi di acciaio inox. Prima di essere messo in vendita, riposa in bottiglia per circa 2 mesi. </p>
             </div>
 
-            <div data-aos="fade-down-right" class="col-12 col-md-5 text-center img-card2-custom order-lg-first">
+            <div data-aos="fade-right" class="col-12 col-md-5 text-center img-card2-custom order-lg-first">
                 
                 {{-- <img class="img-section-custom shadow" src="media/casolare.jpg" alt=""> --}}
                 
@@ -132,7 +132,7 @@
         
         <div class="row row_custom3 justify-content-around">
             
-            <div data-aos="fade-down-right" class="col-12 col-md-5 text-center d-flex justify-content-center align-items-center flex-column">
+            <div data-aos="fade-right" class="col-12 col-md-5 text-center d-flex justify-content-center align-items-center flex-column">
                 <h2 class="fw-bold">Caratteristiche Organolettiche</h2>
                 <ul class="ul-custom fs-5 texts-custom fw-bold">
                     <li>Colore: Rosso porpora.</li>
@@ -143,7 +143,7 @@
                 </ul>
             </div>
             
-            <div data-aos="fade-down-left" class="col-12 col-md-5 text-center img-card3-custom">
+            <div data-aos="fade-left" class="col-12 col-md-5 text-center img-card3-custom">
                 
                 {{-- <img class="img-section-custom shadow" src="media/bottiglia-singola.jpg" alt=""> --}}
                 

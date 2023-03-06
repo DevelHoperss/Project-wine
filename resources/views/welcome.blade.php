@@ -157,9 +157,9 @@
 
 {{-- SEZIONE DICONO DI NOI --}}
 
-<section class="body_custom">
+<section class="body_custom review_custom">
 
-    <div class="row row_reviews justify-content-around">
+    <div class="row justify-content-around">
 
         <div class="col-12 d-flex align-items-center justify-content-center title_review">
 
@@ -167,7 +167,7 @@
 
         </div>
 
-        <div class="col-12 col-md-4 ps-5 texts-custom fw-bold">
+        <div class="col-12 col-md-4  texts-custom fw-bold">
 
             <img src="/media/Recensione1.jpg" class="img_recensione_custom" alt="">
 
@@ -176,7 +176,7 @@
         </div>
 
         
-        <div class="col-12 col-md-4 ps-5 texts-custom fw-bold">
+        <div class="col-12 col-md-4 texts-custom fw-bold">
 
             <img src="/media/Recensione2.jpg" class="img_recensione_custom" alt="">
 
@@ -185,7 +185,7 @@
         </div>
 
         
-        <div class="col-12 col-md-4 ps-5 texts-custom fw-bold">
+        <div class="col-12 col-md-4 texts-custom fw-bold">
 
             <img src="/media/Recensione3.jpg" class="img_recensione_custom" alt="">
 

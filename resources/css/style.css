@@ -268,7 +268,7 @@ h2{
 }
 
 /* RECENSIONI */
-
+*
 .img_recensione_custom{
     height: 40vh;
     width: 15vw;
@@ -281,6 +281,10 @@ h2{
 .h3_review{
     color: darkred;
     font-size: 8vh;
+}
+
+.review_custom{
+    min-height: 80vh;
 }
 
 /* FOOTER */

@@ -66,17 +66,17 @@
     
     
     <!-- PRIMA SEZIONE SOTTO HEADER -->
-    <section class="body_custom shadow">
+    <section class="bg-body-custom shadow">
 
     <section class="container-fluid">
         
-        <div class="row row_custom1 justify-content-around">
+        <div class="row row_custom1 pt-5 justify-content-around">
             
             <div data-aos="fade-down-right" class="col-12 col-md-5 text-center d-flex justify-content-center align-items-center flex-column" >
 
                 <h2 class="fw-bold">Zona di Produzione</h2>
 
-                <ul class="ul-custom fs-5">
+                <ul class="ul-custom fs-5 texts-custom fw-bold">
                     <li>Località Matine, nel territorio di Mottola (300 m s.l.m.)</li>
                     
                     <li> Suolo: Argilloso, ricco di scheletro.</li>
@@ -114,7 +114,7 @@
                 
                 <h2 class="fw-bolder">Vinificazione e affinamento</h2>
                 
-                <p class="fs-5"> Vinificazione e affinamentoLe uve Primitivo, vengono raccolte manualmente in piccoli cassoni e portate in cantina dove fermentano per circa 7 giorni. Sucessivamente il vino viene affinato in piccoli serbatoi di acciaio inox. Prima di essere messo in vendita, riposa in bottiglia per circa 2 mesi. </p>
+                <p class="fs-5 texts-custom fw-bold"> Vinificazione e affinamentoLe uve Primitivo, vengono raccolte manualmente in piccoli cassoni e portate in cantina dove fermentano per circa 7 giorni. Sucessivamente il vino viene affinato in piccoli serbatoi di acciaio inox. Prima di essere messo in vendita, riposa in bottiglia per circa 2 mesi. </p>
             </div>
 
             <div data-aos="fade-down-right" class="col-12 col-md-5 text-center img-card2-custom order-lg-first">
@@ -132,9 +132,9 @@
         
         <div class="row row_custom3 justify-content-around">
             
-            <div data-aos="fade-down-right" class="col-12 col-md-5  text-center d-flex justify-content-center align-items-center flex-column">
+            <div data-aos="fade-down-right" class="col-12 col-md-5 text-center d-flex justify-content-center align-items-center flex-column">
                 <h2 class="fw-bold">Caratteristiche Organolettiche</h2>
-                <ul class="ul-custom fs-5">
+                <ul class="ul-custom fs-5 texts-custom fw-bold">
                     <li>Colore: Rosso porpora.</li>
                     <li>Olfatto: Fruttato con note di mirtillo, ciliegia e prugna.</li>
                     <li>Palato: Gusto fresco e morbido, avvolgente, di buona struttura e di pronta beva.</li>
@@ -153,6 +153,48 @@
         
     </section>    
     
+</section>
+
+{{-- SEZIONE DICONO DI NOI --}}
+
+<section class="body_custom">
+
+    <div class="row row_reviews justify-content-around">
+
+        <div class="col-12 d-flex align-items-center justify-content-center title_review">
+
+            <h3 class="h3_review"> Dicono di Noi </h3>
+
+        </div>
+
+        <div class="col-12 col-md-4 ps-5 texts-custom fw-bold">
+
+            <img src="/media/Recensione1.jpg" class="img_recensione_custom" alt="">
+
+            <p> Un buon vino bevuto in compagnia </p>
+
+        </div>
+
+        
+        <div class="col-12 col-md-4 ps-5 texts-custom fw-bold">
+
+            <img src="/media/Recensione2.jpg" class="img_recensione_custom" alt="">
+
+            <p> Un buon vino bevuto in compagnia </p>
+
+        </div>
+
+        
+        <div class="col-12 col-md-4 ps-5 texts-custom fw-bold">
+
+            <img src="/media/Recensione3.jpg" class="img_recensione_custom" alt="">
+
+            <p> Un buon vino bevuto in compagnia </p>
+
+        </div>
+
+    </div>
+
 </section>
 
 </x-layout>

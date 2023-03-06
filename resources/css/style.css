@@ -1,6 +1,43 @@
 
-body{
-    background-color: #6f1023d6;
+/* BLOCCO SCROLL LATERALE */
+
+html{
+    overflow-x: hidden;
+}
+
+/* PRESET Colori e fonts*/
+
+:root{
+    --textsVioletDark: #18122B;
+    /* --paletteBody: #635985; */
+    --paletteBody: #393053;
+    --palettePage: #443C68;
+    --paletteFooter: #393053;
+    --paletteHeader: #18122B;
+  }
+
+  .texts-custom{
+    color: var(--textsVioletDark);
+  }
+  
+  .bg-body-custom{
+    background-color: var(--paletteBody);
+  }
+  
+  .bg-page-custom{
+    background-color: var(--palettePage);
+  }
+
+  .bg-header-custom{
+    background-color: var(--paletteHeader);
+  }
+  
+  .bg-footer-custom{
+    background-color: var(--paletteFooter);
+  }
+
+.body-custom{
+    background-color: var(--paletteBody);
 }
 /* IMMAGINE HEADER */
 
@@ -14,8 +51,8 @@ body{
     height: 80vh;
 }
 
-.body_custom{
-    background-color: #E9E8E8;
+.bg-body-custom{
+    background-color: #635985;
 }
 
 /* SEZIONE SOTTO HEADER */
@@ -28,6 +65,9 @@ h2{
     color: darkred;
     font-style: italic;
     font-size: 60px;
+    position: relative;
+    top: 35%;
+    right: 20%;
 }
 
 .img_casolare{
@@ -35,15 +75,16 @@ h2{
 }
 
 .header_custom{
-    height: 40vh;
-    background: linear-gradient(to bottom, #20262e 80%, #E9E8E8);
+    height: 30vh;
+    background: linear-gradient(to bottom, #18122B 95%, #e9e8e8ef);
+    /* background-color: var(--paletteHeader); */
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
 }
 
 .section-custom{
     height: 60vh;
-    background: linear-gradient(to bottom, #E9E8E8, transparent, transparent, transparent,#E9E8E8), url(/public/media/vigneto.jpg);
+    background: linear-gradient(to bottom, #e9e8e8dd, transparent, transparent, transparent,#e9e8e8c2), url(/public/media/vigneto.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -72,7 +113,6 @@ h2{
 
  .img-card2-custom {
     background-image: url(/public/media/casolare.jpg);
-    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 50%;
@@ -104,8 +144,7 @@ h2{
 
 /* ANIMAZIONE GOCCIA */
 
-
-.div_goccia {
+/* .div_goccia {
     margin: 175px auto;
 }
 
@@ -113,7 +152,6 @@ h2{
     position: relative;
     width: 20px;
     height: 20px;
-    /* top: -30px; */
     margin: 0 auto;
     background: #6f1023;
     -moz-border-radius: 20px;
@@ -189,7 +227,7 @@ h2{
     -moz-animation-iteration-count: infinite;
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
-}
+} */
 
 @keyframes ripple {
     from {
@@ -227,6 +265,33 @@ h2{
     to {
         top: 190px;
     }
+}
+
+/* RECENSIONI */
+
+.img_recensione_custom{
+    height: 40vh;
+    width: 15vw;
+}
+
+.title_review{
+    height: 20vh;
+}
+
+.h3_review{
+    color: darkred;
+    font-size: 8vh;
+}
+
+/* FOOTER */
+
+.link_footer{
+    text-decoration: none;
+}
+
+.bg-footer-custom{
+    border: solid;
+    background-color: var(--paletteHeader);
 }
 
 /* MEDIAQUERY */
@@ -296,7 +361,11 @@ h2{
      }
 
      .thirdContainerCustom{
-        min-height: 70vh;
+        min-height: 80vh;
+     }
+
+     .img_recensione_custom{
+        width: 60vw;
      }
     
 

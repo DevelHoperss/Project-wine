@@ -2,19 +2,41 @@
     
     
     <!-- HEADER -->     
-    <header id="header" class="header_custom sticky-top mt-4">
+    <header  class="header_custom mt-4">
+
         
         <section>
             
             <div class="d-flex justify-content-center align-items-center">
                 
-                <img src="media/fira-titolo.png" class="logo_custom" alt="">
+                <img  src="media/fira-titolo.png" class="logo_custom" alt="">
                 
             </div>
             
+            <div class="dropdown mx-2">
+               <ul class=" dropdown flag-nav-custom m-0 pt-1 " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   @if(session('locale')=='es')
+                   <li><x-_locale lang="es"/></li>
+                   @elseif(session('locale')=='en')
+                   <li><x-_locale lang="en"/></li>
+                   @else
+                   <li><x-_locale lang="it"/></li>
+                   @endif
+               </ul>
+               <ul class="dropdown-menu  bg-flag-custom text-end  dropdown-menu-end ">
+                   <li><x-_locale lang="en"/></li>
+                   <li><x-_locale lang="es"/></li>
+                   <li><x-_locale lang="it"/></li>
+               </ul>
+               
+           </div>
+            
         </section>
         
+        
+        
     </header>
+
     
     <section class="section-custom">
         <h3 class="h3-custom text-center">Primitivo Amabile</h3>

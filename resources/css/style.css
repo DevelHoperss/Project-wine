@@ -56,6 +56,19 @@
     min-width: 90vw;
 }
 
+.flag-nav-custom{
+
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+  }
+  .bg-flag-custom{
+  
+  background-color: rgba(255, 255, 255, 0.363); 
+  backdrop-filter: blur(10px); 
+  
+  }
+
 
 
 /* SEZIONE SOTTO HEADER */

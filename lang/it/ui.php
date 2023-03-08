@@ -1,5 +1,7 @@
 <?php
-return [
+return  [
+    'bottled'=> 'Imbottigliato all\'origine da',
+    'follow'=>'Seguici sulla nostra pagina Instagram',
 
     'productionArea'=> 'Zona di Produzione',
     'location'=> 'Località Matine, nel territorio di Mottola',

@@ -52,16 +52,16 @@
                 
                 <div data-aos="fade-right" data-aos-duration="1500" class="col-12 col-md-5 text-center d-flex justify-content-center align-items-center flex-column" >
                     
-                    <h2 class="fw-bold">Zona di Produzione</h2>
+                    <h2 class="fw-bold">{{__('ui.productionArea')}}</h2>
                     
                     <ul class="ul-custom fs-5 texts-custom text-center">
-                        <li>Località Matine, nel territorio di Mottola (300 m s.l.m.)</li>
-                        <li> Suolo: Argilloso, ricco di scheletro.</li>                 
-                        <li>Sistema di allevamento: Guyot.</li>                 
-                        <li>Vitigni: 100% Primitivo.</li>                 
-                        <li>Produzione per ettaro: 110 q.li/ha.</li>               
-                        <li>Epoca di vendemmia: Prima decade di Settembre.</li>              
-                        <li>Raccolta: Manuale.</li>
+                        <li>{{__('ui.location')}} (300 m s.l.m.)</li>
+                        <li> {{__('ui.soil')}}</li>                 
+                        <li>{{__('ui.system')}}.</li>                 
+                        <li>{{__('ui.grape')}}</li>                 
+                        <li>{{__('ui.yield')}}: 110 q.li/ha.</li>               
+                        <li>{{__('ui.harvest')}}.</li>              
+                        <li>{{__('ui.manualHarvest')}}</li>
                     </ul>
                     
                 </div>
@@ -84,9 +84,9 @@
                 
                 <div data-aos="fade-left" data-aos-duration="2500" class="col-12 col-md-5 text-center d-flex align-items-center justify-content-center flex-column mt-5 secondSection_divCustom">
                     
-                    <h2 class="fw-bolder">Vinificazione e affinamento</h2>
+                    <h2 class="fw-bolder">{{__('ui.winemaking')}}</h2>
                     
-                    <p class="fs-5 texts-custom">Le uve Primitivo, vengono raccolte manualmente in piccoli cassoni e portate in cantina dove fermentano per circa 7 giorni. Sucessivamente il vino viene affinato in piccoli serbatoi di acciaio inox. Prima di essere messo in vendita, riposa in bottiglia per circa 2 mesi. </p>
+                    <p class="fs-5 texts-custom">{{__('ui.description')}} </p>
                 </div>
                 
                 <div data-aos="fade-right" data-aos-duration="2500" class="col-12 col-md-5 text-center img-card2-custom order-lg-first">
@@ -105,13 +105,13 @@
             <div class="row justify-content-around py-5">
                 
                 <div data-aos="fade-right" data-aos-duration="2000" class="col-12 col-md-5 text-center d-flex justify-content-center align-items-center flex-column">
-                    <h2 class="fw-bold">Caratteristiche Organolettiche</h2>
+                    <h2 class="fw-bold">{{__('ui.charac')}}</h2>
                     <ul class="ul-custom texts-custom fs-5">
-                        <li>Colore: Rosso porpora.</li>
-                        <li>Olfatto: Fruttato con note di mirtillo, ciliegia e prugna.</li>
-                        <li>Palato: Gusto fresco e morbido, avvolgente, di buona struttura e di pronta beva.</li>
-                        <li>Grado alcolico: 13,5% vol.</li>
-                        <li>Temperatura di servizio: 16-18 °C.</li>
+                        <li>{{__('ui.color')}}</li>
+                        <li>{{__('ui.nose')}}</li>
+                        <li>{{__('ui.taste')}}</li>
+                        <li>{{__('ui.alcohol')}}: 13,5% vol.</li>
+                        <li>{{__('ui.temp')}}: 16-18 °C.</li>
                     </ul>
                 </div>
                 
@@ -135,7 +135,7 @@
             
             <div class="col-12 d-flex my-5 align-items-center justify-content-center title_review">
                 
-                <h2 class="h3_review"> Dicono di Noi </h2>
+                <h2 class="h3_review"> {{__('ui.aboutUs')}} </h2>
                 
             </div>
             

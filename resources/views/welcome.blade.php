@@ -111,15 +111,15 @@
         
         <div class="row justify-content-around row-custom-aboutUS">
             
-            <div class="col-12 d-flex align-items-center justify-content-center title_review">
+            <div class="col-12 d-flex my-5 align-items-center justify-content-center title_review">
                 
                 <h2 class="h3_review"> Dicono di Noi </h2>
                 
             </div>
             
-            <div class="col-12 col-md-4 text-center d-flex align-items-center flex-column divReviewCustom">
+            <div class="col-12 col-md-4 mb-5 text-center d-flex align-items-center flex-column divReviewCustom">
                 
-                <div class="card d-flex justify-content-center">
+                <div class="card shadow d-flex justify-content-center">
                     
                     <img src="/media/Recensione1.jpg" class="img_recensione_custom" alt="">
                     
@@ -130,9 +130,9 @@
             </div>
             
             
-            <div class="col-12 col-md-4 text-center d-flex align-items-center flex-column divReviewCustom">
+            <div class="col-12 col-md-4 mb-5 text-center d-flex align-items-center flex-column divReviewCustom">
                 
-                <div class="card d-flex justify-content-center">
+                <div class="card shadow d-flex justify-content-center">
                     
                     <img src="/media/Recensione2.jpg" class="img_recensione_custom" alt="">
                     
@@ -143,21 +143,21 @@
             </div>
             
             
-            <div class="col-12 col-md-4 text-center d-flex align-items-center flex-column divReviewCustom">
+            <div class="col-12 col-md-4 mb-5 text-center d-flex align-items-center flex-column divReviewCustom">
                 
-                <div class="card d-flex justify-content-center">
+                <div class="card shadow d-flex justify-content-center">
                     
                     <img src="/media/Recensione3.jpg" class="img_recensione_custom" alt="">
                     
-                    <p class="mt-3"> Un buon vino bevuto in compagnia </p>
+                    <p class="mt-3"> Un buon vino bevuto in compagnia</p>
                     
                 </div>
                 
             </div>
             
-            <div class="col-12 col-md-4 text-center d-flex align-items-center flex-column divReviewCustom">
+            <div class="col-12 col-md-4 mb-5 text-center d-flex align-items-center flex-column divReviewCustom">
                 
-                <div class="card d-flex justify-content-center align-items-center">
+                <div class="card shadow d-flex justify-content-center align-items-center">
                     
                     <img src="/media/Recensione4.jpg" class="img_recensione_custom" alt="">
                     

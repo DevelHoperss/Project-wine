@@ -5,8 +5,8 @@
         <div class="row footer_custom align-items-center">
             
             <div class="col-12 col-md-7 text-center d-flex align-items-center justify-content-center flex-column">
-                <h5 class="text-white text-center"> Imbottigliato all'origine da: ICQRF TA/5617 Mottola (TA) - Italia</h5>
-                <h5 class="text-white"> Per FiRà srl +39 3396347522 - Foggia</h5>
+                <h6 class="text-white text-center"> Imbottigliato all'origine da: ICQRF TA/5617 Mottola (TA) - Italia</h6>
+                <h6 class="text-white"> Per FiRà srl +39 3396347522 - Foggia</h6>
             </div>
             
             

@@ -87,7 +87,9 @@ h2{
     /* background-color: var(--paletteHeader); */
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
+    position: sticky top;
 }
+
 
 .section-custom{
     height: 60vh;

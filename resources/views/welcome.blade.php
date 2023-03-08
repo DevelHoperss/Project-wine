@@ -2,7 +2,7 @@
     
     
     <!-- HEADER -->     
-    <header class="header_custom mt-4">
+    <header id="header" class="header_custom sticky-top mt-4">
         
         <section>
             

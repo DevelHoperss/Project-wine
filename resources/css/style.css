@@ -141,97 +141,9 @@ h2{
     padding: 10px;
  }
 
-
 .ul-custom{
     list-style: none;
 }
-
-/* ANIMAZIONE GOCCIA */
-
-/* .div_goccia {
-    margin: 175px auto;
-}
-
-.drop {
-    position: relative;
-    width: 20px;
-    height: 20px;
-    margin: 0 auto;
-    background: #6f1023;
-    -moz-border-radius: 20px;
-    -webkit-border-radius: 20px;
-    border-radius: 20px;
-    -moz-animation-name: drip;
-    -webkit-animation-name: drip;
-    animation-name: drip;
-    -moz-animation-timing-function: cubic-bezier(1,0,.91,.19);
-    -webkit-animation-timing-function: cubic-bezier(1,0,.91,.19);
-    animation-timing-function: cubic-bezier(1,0,.91,.19);
-    -moz-animation-duration: 2s;
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s;
-    -moz-animation-iteration-count: infinite;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-}
-
-.drop:before {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 30px solid #6f1023;
-    top: -22px;
-}
-
-.wave {
-    position: relative;
-    opacity: 0;
-    top: 0;
-    width: 2px;
-    height: 1px;
-    border: #6f1023 7px solid;
-    -moz-border-radius: 300px / 150px;
-    -webkit-border-radius: 300px / 150px;
-    border-radius: 300px / 150px;
-    -moz-animation-name: ripple;
-    -webkit-animation-name: ripple;
-    animation-name: ripple;
-    -moz-animation-delay: 2s;
-    -webkit-animation-delay: 2s;
-    animation-delay: 2s;
-    -moz-animation-duration: 2s;
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s;
-    -moz-animation-iteration-count: infinite;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-}
-
-.wave:after {
-    content: "";
-    position: absolute;
-    opacity: 0;
-    top: -5px;
-    left: -5px;
-    width: 2px;
-    height: 1px;
-    border: #6f1023 5px solid;
-    -moz-border-radius: 300px / 150px;
-    -webkit-border-radius: 300px / 150px;
-    border-radius: 300px / 150px;
-    -moz-animation-name: ripple-2;
-    -webkit-animation-name: ripple-2;
-    animation-name: ripple-2;
-    -moz-animation-duration: 2s;
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s;
-    -moz-animation-iteration-count: infinite;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-} */
 
 @keyframes ripple {
     from {
@@ -274,8 +186,10 @@ h2{
 /* RECENSIONI */
 *
 .img_recensione_custom{
-    height: 40vh;
+    height: 35vh;
     width: 15vw;
+    border-radius: 30px;
+    /* margin-bottom: 25%; */
 }
 
 .title_review{
@@ -295,25 +209,10 @@ h2{
     min-height: 80vh;
 }
 
-/* SWIPER */
+.row-custom-aboutUS{
+    min-height: 120vh;
+}
 
-.swiper {
-    width: 600px; 
-    height: 400px;
-  }
-
-  .card-custom{
-
-    height: 200px;
-    width: 300px;
-    border: 2px solid black;
-    border-radius: 20px;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
 
 /* FOOTER */
 
@@ -322,9 +221,47 @@ h2{
 }
 
 .bg-footer-custom{
-    border: solid;
     background-color: var(--paletteHeader);
 }
+
+.footer_custom{
+    height: 28vh;
+}
+
+/* CARD */
+
+.card {
+    box-sizing: border-box;
+    min-height: 90%;
+    height: 100%;
+    width: 60%;
+    background: rgba(217, 217, 217, 0.58);
+    border: 1px solid white;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    backdrop-filter: blur(6px);
+    border-radius: 17px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    font-weight: bolder;
+  }
+  
+  .card:hover {
+    border: 1px solid black;
+    transform: scale(1.05);
+  }
+  
+  .card:active {
+    transform: scale(0.95) rotateZ(1.7deg);
+  }
+
+  .divReviewCustom{
+    margin: 1%;
+  }
 
 /* MEDIAQUERY */
 
@@ -343,11 +280,12 @@ h2{
     }
 
     .logo_custom{
-        width: 70%;
+        width: 80%;
     }
 
     .h3-custom{
         font-size: 2rem;
+        margin-top: 60px;
     }
 
     .img_header{
@@ -403,7 +341,22 @@ h2{
      .img_recensione_custom{
         width: 60vw;
      }
-    
+
+     .review_custom{
+        text-align: center;
+     }
+
+    .divReviewCustom{
+        margin: 10px;
+    }
+
+    .footer_custom{
+        min-height: 60vh;
+    }
+
+    .card{
+        min-height: 100%;
+    }
 
     @keyframes ripple {
         from {

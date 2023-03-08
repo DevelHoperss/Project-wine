@@ -2,27 +2,21 @@
     
     <section class="container-fluid">
         
-        <div class="row">
+        <div class="row footer_custom align-items-center">
             
-            <div class="col-12 col-md-12">
-                
-                <img src="" class="" alt="">
-                
-            </div>
-            
-            <div class="col-12 col-md-7 p-5">
-                <h3 class="text-white"> LOREM </h3>
-                <h5 class="text-white"> Testo generico </h5>
-                <p class="text-white"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit officia, a consequuntur voluptatum amet ad dicta voluptas libero omnis deleniti doloribus necessitatibus incidunt nihil voluptate pariatur dolores quam! Modi, dolores.</p>
-                <p class="text-white"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, aspernatur et? Voluptate reiciendis beatae accusantium ex labore sapiente voluptatum non, ducimus unde incidunt laboriosam libero temporibus distinctio est aperiam voluptates.</p>
+            <div class="col-12 col-md-7 p-5 text-center d-flex align-items-center justify-content-center flex-column">
+                <p class="text-white text-center"> Imbottigliato all'origine da: ICQRF TA/5617 </p>
+                <p class="text-white"> Mottola (TA) - Italia </p>
+                <p class="text-white"> Per FiRà srl </p>
+                <p class="text-white"> +39 3396347522 - Foggia </p>
             </div>
             
             
-            <div class="col-12 col-md-5 p-5 text-center">
+            <div class="col-12 col-md-5 p-5 text-center d-flex align-items-center flex-column">
                 
-                <h3 class="text-white"> Social </h3>
+                <h5 class="text-white"> Seguici sulla nostra pagina Instagram </h5>
                 
-                    <a href="" class="link_footer"><i class="fa-brands fa-instagram fa-3x"></i></a>
+                <a href="" class="link_footer"><i class="fa-brands fa-instagram fa-3x"></i> </a>
                 
             </div>
             

@@ -201,7 +201,7 @@ h2{
 /* RECENSIONI */
 *
 .img_recensione_custom{
-    height: 35vh;
+    /* height: 35vh; */
     width: 17.2vw;
     border-radius: 17px;
     /* margin-bottom: 25%; */

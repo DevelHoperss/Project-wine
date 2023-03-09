@@ -145,7 +145,7 @@
                     
                     <img src="/media/Recensione1.jpg" class="img_recensione_custom" alt="">
                     
-                    <p class="mt-3"> Un buon vino bevuto in compagnia </p>
+                    <p class="mt-3" style="font-style:italic"> Unica controindicazione, euforia irreversibile </p>
                     
                 </div>
                 
@@ -158,7 +158,7 @@
                     
                     <img src="/media/Recensione2.jpg" class="img_recensione_custom" alt="">
                     
-                    <p class="mt-3"> Un buon vino bevuto in compagnia </p>
+                    <p class="mt-3" style="font-style:italic"> Ottimo, anche sui dolci e per aperitivo! </p>
                     
                 </div>
                 
@@ -171,7 +171,7 @@
                     
                     <img src="/media/Recensione3.jpg" class="img_recensione_custom" alt="">
                     
-                    <p class="mt-3"> Un buon vino bevuto in compagnia</p>
+                    <p class="mt-3" style="font-style:italic"> Rende il tavolo elegante </p>
                     
                 </div>
                 
@@ -183,12 +183,23 @@
                     
                     <img src="/media/Recensione4.jpg" class="img_recensione_custom" alt="">
                     
-                    <p class="mt-3">Un buon vino bevuto in compagnia </p>
+                    <p class="mt-3" style="font-style:italic"> Accostamento perfetto … </p>
                     
                 </div>
                 
             </div>
             
+            <div class="col-12 col-md-4 mb-5 text-center d-flex align-items-center flex-column divReviewCustom">
+                
+                <div class="card shadow d-flex justify-content-center align-items-center">
+                    
+                    <img src="/media/Recensione5.jpg" class="img_recensione_custom" alt="">
+                    
+                    <p class="mt-3" style="font-style:italic"> Un vino maschio per donne di carattere </p>
+                    
+                </div>
+                
+            </div>
             
         </div>
         

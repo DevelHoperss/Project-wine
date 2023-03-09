@@ -14,7 +14,7 @@
                 
                 <a href="" class="link_footer"><i class="fa-brands fa-instagram fa-3x"></i> </a>
                 
-                <h5 class="text-white"> {{__('ui.follow')}} </h5>
+                {{-- <h5 class="text-white"> {{__('ui.follow')}} </h5> --}}
                 
             </div>
             

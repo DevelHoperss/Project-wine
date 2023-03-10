@@ -60,17 +60,16 @@
     list-style: none;
     text-align: center;
 }
+
+
+
 .bg-flag-custom{
-    
     background-color: rgba(255, 255, 255, 0.363); 
     backdrop-filter: blur(10px); 
-    
 }
 
 .dropdown-menu{
-
-    --bs-dropdown-min-width: 4rem !important;
-
+    --bs-dropdown-min-width: 2rem !important;
 }
 
 
@@ -237,11 +236,6 @@ h2{
 }
 
 
-
-
-
-
-
 /* MEDIAQUERY */
 
 @media screen and (max-width: 700px) {
@@ -262,6 +256,15 @@ h2{
         width: 80%;
     }
     
+    .section-custom{
+        margin-top: 0px;
+    }
+    
+    /* Messa a 40.5vh altrimenti fa lo scroll dell'header */
+    .header_custom{
+        height: 40.5vh; 
+    }
+    
     .h3-custom{
         font-size: 2rem;
         margin-top: 60px;
@@ -273,8 +276,20 @@ h2{
         border-radius: 0px;
     }
     
+    /* .dropdown{
+      right: 65%;
+    }
+     */
     .header_index{
         max-height: 35vh;
+    }
+    
+    .title_review{
+        height: 18vh;
+    }
+    
+    .review_custom{
+        height: 80vh;
     }
     
     .img-card1-custom {

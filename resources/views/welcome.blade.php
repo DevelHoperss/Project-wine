@@ -15,7 +15,7 @@
             
         </section>
         
-        <div class="col-12 col-md-1 offset-11 d-flex justify-content-end">
+        <div class="col-12 col-md-12 d-flex justify-content-end">
             
             <ul class="dropdown flag-nav-custom" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 @if(session('locale')=='es')

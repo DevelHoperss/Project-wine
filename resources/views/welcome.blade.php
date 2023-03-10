@@ -14,20 +14,24 @@
             </div>
             
         </section>
-        <ul class="dropdown flag-nav-custom d-flex justify-content-end" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            @if(session('locale')=='es')
-            <li><x-_locale lang="es"/></li>
-            @elseif(session('locale')=='en')
-            <li><x-_locale lang="en"/></li>
-            @else
-            <li><x-_locale lang="it"/></li>
-            @endif
-        </ul>
-        <ul class="dropdown-menu bg-flag-custom text-end text-md-center dropdown-menu-end">
-            <li><x-_locale lang="en"/></li>
-            <li><x-_locale lang="es"/></li>
-            <li><x-_locale lang="it"/></li>
-        </ul>
+        
+        <div class="col-12 col-md-1 offset-11 d-flex justify-content-end">
+            
+            <ul class="dropdown flag-nav-custom" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                @if(session('locale')=='es')
+                <li><x-_locale lang="es"/></li>
+                @elseif(session('locale')=='en')
+                <li><x-_locale lang="en"/></li>
+                @else
+                <li><x-_locale lang="it"/></li>
+                @endif
+            </ul>
+            <ul class="dropdown-menu bg-flag-custom text-end text-md-center dropdown-menu-end">
+                <li><x-_locale lang="en"/></li>
+                <li><x-_locale lang="es"/></li>
+                <li><x-_locale lang="it"/></li>
+            </ul>
+        </div>
         {{-- <div class="dropdown mx-2">
             <ul class=" dropdown flag-nav-custom m-0 pt-1 " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 @if(session('locale')=='es')
@@ -44,11 +48,7 @@
                 <li><x-_locale lang="it"/></li>
             </ul>
             
-        </div> --}}
-        
-        
-        
-        
+        </div> --}}      
         
     </header>
     
@@ -194,50 +194,50 @@
                     </div>
                 </div>
                 @endforeach --}}                
-            
-            <div class="w3-content w3-section" style="max-width:500px">
                 
-                @foreach ($recensioni as $recensione)
-                
-                <div class="mySlides w3-animate-fading">
+                <div class="w3-content w3-section" style="max-width:500px">
                     
-                    <img src="media/{{$recensione->img}}.jpg" class="img_recensione_custom">
-                    <p class="mt-3 fontReview text-center fs-4"><i class="fa-solid fa-quote-left faCustom"></i> {{$recensione->testo}} <i class="fa-solid fa-quote-right faCustom"></i></p>
+                    @foreach ($recensioni as $recensione)
+                    
+                    <div class="mySlides w3-animate-fading">
+                        
+                        <img src="media/{{$recensione->img}}.jpg" class="img_recensione_custom">
+                        <p class="mt-3 fontReview text-center fs-4"><i class="fa-solid fa-quote-left faCustom"></i> {{$recensione->testo}} <i class="fa-solid fa-quote-right faCustom"></i></p>
+                        
+                    </div>
+                    
+                    @endforeach
                     
                 </div>
                 
-                @endforeach
-                
-            </div>
-            
-            <script>
-                var myIndex = 0;
-                carousel();
-                
-                function carousel() {
-                    var i;
-                    var x = document.getElementsByClassName("mySlides");
-                    for (i = 0; i < x.length; i++) {
-                        x[i].style.display = "none";  
+                <script>
+                    var myIndex = 0;
+                    carousel();
+                    
+                    function carousel() {
+                        var i;
+                        var x = document.getElementsByClassName("mySlides");
+                        for (i = 0; i < x.length; i++) {
+                            x[i].style.display = "none";  
+                        }
+                        myIndex++;
+                        if (myIndex > x.length) {myIndex = 1}    
+                        x[myIndex-1].style.display = "block";  
+                        setTimeout(carousel, 5000);    
                     }
-                    myIndex++;
-                    if (myIndex > x.length) {myIndex = 1}    
-                    x[myIndex-1].style.display = "block";  
-                    setTimeout(carousel, 5000);    
-                }
-            </script>
+                </script>
+                
+                
+            </section>
             
-            
-        </section>
+        </x-layout>
         
-    </x-layout>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+        
+        
+        
+        
+        
+        
+        
+        
+        

@@ -3,7 +3,7 @@
     
     <!-- HEADER -->     
     <header  class="header_custom mt-4">
-
+        
         
         <section>
             
@@ -13,30 +13,45 @@
                 
             </div>
             
-            <div class="dropdown mx-2">
-               <ul class=" dropdown flag-nav-custom m-0 pt-1 " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                   @if(session('locale')=='es')
-                   <li><x-_locale lang="es"/></li>
-                   @elseif(session('locale')=='en')
-                   <li><x-_locale lang="en"/></li>
-                   @else
-                   <li><x-_locale lang="it"/></li>
-                   @endif
-               </ul>
-               <ul class="dropdown-menu  bg-flag-custom text-end  dropdown-menu-end ">
-                   <li><x-_locale lang="en"/></li>
-                   <li><x-_locale lang="es"/></li>
-                   <li><x-_locale lang="it"/></li>
-               </ul>
-               
-           </div>
-            
         </section>
+            <ul class="dropdown flag-nav-custom d-flex justify-content-end pe-md-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                @if(session('locale')=='es')
+                <li><x-_locale lang="es"/></li>
+                @elseif(session('locale')=='en')
+                <li><x-_locale lang="en"/></li>
+                @else
+                <li><x-_locale lang="it"/></li>
+                @endif
+            </ul>
+            <ul class="dropdown-menu bg-flag-custom text-end text-md-center dropdown-menu-end">
+                <li><x-_locale lang="en"/></li>
+                <li><x-_locale lang="es"/></li>
+                <li><x-_locale lang="it"/></li>
+            </ul>
+            {{-- <div class="dropdown mx-2">
+                <ul class=" dropdown flag-nav-custom m-0 pt-1 " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    @if(session('locale')=='es')
+                    <li><x-_locale lang="es"/></li>
+                    @elseif(session('locale')=='en')
+                    <li><x-_locale lang="en"/></li>
+                    @else
+                    <li><x-_locale lang="it"/></li>
+                    @endif
+                </ul>
+                <ul class="dropdown-menu  bg-flag-custom text-end  dropdown-menu-end ">
+                    <li><x-_locale lang="en"/></li>
+                    <li><x-_locale lang="es"/></li>
+                    <li><x-_locale lang="it"/></li>
+                </ul>
+                
+            </div> --}}
+            
+        
         
         
         
     </header>
-
+    
     
     <section class="section-custom">
         <h3 class="h3-custom text-center">Primitivo Amabile</h3>

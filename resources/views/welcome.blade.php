@@ -154,34 +154,38 @@
                 
             </div>
             
+
+
+
             @php
             $recensioni = array(
-                (object) [
-                    'img'=>'Recensione1',
-                    'testo'=>'Unica controindicazione, euforia irreversibile',
-                ],
-                (object) [
-                    'img'=>'Recensione2',
-                    'testo'=>'Ottimo anche sui dolci e per aperitivo!',
-                ],
-                (object) [
-                    'img'=>'Recensione3',
-                    'testo'=>'Rende il tavolo elegante',
-                ],
-                (object) [
-                    'img'=>'Recensione4',
-                    'testo'=>'Accostamento perfetto…',
-                ],
-                (object) [
-                    'img'=>'Recensione5',
-                    'testo'=>'Un vino maschio per donne di carattere',
-                ],
+            (object) [
+            'img'=>'Recensione1',
+            'testo'=>'Unica controindicazione, euforia irreversibile',
+            ],
+            (object) [
+            'img'=>'Recensione2',
+            'testo'=>'Ottimo anche sui dolci e per aperitivo!',
+            ],
+            (object) [
+            'img'=>'Recensione3',
+            'testo'=>'Rende il tavolo elegante',
+            ],
+            (object) [
+            'img'=>'Recensione4',
+            'testo'=>'Accostamento perfetto…',
+            ],
+            (object) [
+            'img'=>'Recensione5',
+            'testo'=>'Un vino maschio per donne di carattere',
+            ],
             );
             
             @endphp
             
             
-            @foreach ($recensioni as $recensione)
+            {{-- @foreach ($recensioni as $recensione)
+
                 <div class="col-12 col-md-4 mb-5 text-center d-flex align-items-center flex-column divReviewCustom">
                     
                     <div class="card shadow d-flex justify-content-center">
@@ -192,20 +196,53 @@
                         
                     </div>
                 </div>
-            @endforeach
+                @endforeach --}}
+                
+                
             
             
+         
+
+            <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+                <div class="carousel-inner">
+                    @foreach ($recensioni as $recensione)
+                        <div class="carousel-item active col-12 col-md-4 mb-5 text-center d-flex align-items-center flex-column divReviewCustom">
+                            
+                            <div class="card d-flex justify-content-center">
+                                
+                                <img src="/media/{{$recensione->img}}.jpg" class="img_recensione_custom" alt="">
+                                
+                                <p class="mt-3 fontReview"><i class="fa-solid fa-quote-left"></i>{{$recensione->testo}} <i class="fa-solid fa-quote-right"></i></p>
+                                
+                            </div>
+                        </div>
+                  
+                    @endforeach
+                </div>
+
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bg-success" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-success" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
         </div>
+            
+        </section>
         
-    </section>
+    </x-layout>
     
-</x-layout>
-
-
-
-
-
-
-
-
-
+    
+    
+    
+    
+    
+    
+    
+    
+    

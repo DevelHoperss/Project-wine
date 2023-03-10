@@ -189,9 +189,9 @@ h2{
 .fontReview{
     font-style: italic;
 }
-.row-custom-aboutUS{
+/* .row-custom-aboutUS{
     min-height: 120vh;
-}
+} */
 
 
 /* FOOTER */
@@ -225,8 +225,6 @@ h2{
     backdrop-filter: blur(6px);
     border-radius: 17px;
     text-align: center;
-    cursor: pointer;
-    transition: all 0.5s;
     display: flex;
     align-items: center;
     justify-content: center;

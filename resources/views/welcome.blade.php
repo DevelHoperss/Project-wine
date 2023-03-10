@@ -97,14 +97,14 @@
             
             <div class="row justify-content-around py-5">
                 
-                <div data-aos="fade-left" data-aos-duration="2500" class="col-12 col-md-5 text-center d-flex align-items-center justify-content-center flex-column mt-5 secondSection_divCustom">
+                <div data-aos="fade-left" data-aos-duration="1500" class="col-12 col-md-5 text-center d-flex align-items-center justify-content-center flex-column mt-5 secondSection_divCustom">
                     
                     <h2 class="fw-bolder">{{__('ui.winemaking')}}</h2>
                     
                     <p class="fs-5 texts-custom">{{__('ui.description')}} </p>
                 </div>
                 
-                <div data-aos="fade-right" data-aos-duration="2500" class="col-12 col-md-5 text-center img-card2-custom order-lg-first">
+                <div data-aos="fade-right" data-aos-duration="1500" class="col-12 col-md-5 text-center img-card2-custom order-lg-first">
                     
                     {{-- <img class="img-section-custom shadow" src="media/casolare.jpg" alt=""> --}}
                     
@@ -119,7 +119,7 @@
             
             <div class="row justify-content-around py-5">
                 
-                <div data-aos="fade-right" data-aos-duration="2000" class="col-12 col-md-5 text-center d-flex justify-content-center align-items-center flex-column">
+                <div data-aos="fade-right" data-aos-duration="1500" class="col-12 col-md-5 text-center d-flex justify-content-center align-items-center flex-column">
                     <h2 class="fw-bold">{{__('ui.charac')}}</h2>
                     <ul class="ul-custom texts-custom fs-5">
                         <li>{{__('ui.color')}}</li>
@@ -160,7 +160,7 @@
                     
                     <img src="/media/Recensione1.jpg" class="img_recensione_custom" alt="">
                     
-                    <p class="mt-3" style="font-style:italic"> Unica controindicazione, euforia irreversibile </p>
+                    <p class="mt-3 fontReview"> Unica controindicazione, euforia irreversibile </p>
                     
                 </div>
                 
@@ -173,7 +173,7 @@
                     
                     <img src="/media/Recensione2.jpg" class="img_recensione_custom" alt="">
                     
-                    <p class="mt-3" style="font-style:italic"> Ottimo, anche sui dolci e per aperitivo! </p>
+                    <p class="mt-3 fontReview"> Ottimo, anche sui dolci e per aperitivo! </p>
                     
                 </div>
                 
@@ -186,7 +186,7 @@
                     
                     <img src="/media/Recensione3.jpg" class="img_recensione_custom" alt="">
                     
-                    <p class="mt-3" style="font-style:italic"> Rende il tavolo elegante </p>
+                    <p class="mt-3 fontReview"> Rende il tavolo elegante </p>
                     
                 </div>
                 
@@ -198,7 +198,7 @@
                     
                     <img src="/media/Recensione4.jpg" class="img_recensione_custom" alt="">
                     
-                    <p class="mt-3" style="font-style:italic"> Accostamento perfetto … </p>
+                    <p class="mt-3 fontReview"> Accostamento perfetto … </p>
                     
                 </div>
                 
@@ -210,7 +210,7 @@
                     
                     <img src="/media/Recensione5.jpg" class="img_recensione_custom" alt="">
                     
-                    <p class="mt-3" style="font-style:italic"> Un vino maschio per donne di carattere </p>
+                    <p class="mt-3 fontReview"> Un vino maschio per donne di carattere </p>
                     
                 </div>
                 

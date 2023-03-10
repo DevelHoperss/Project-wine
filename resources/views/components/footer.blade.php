@@ -12,9 +12,8 @@
             
             <div class="col-12 col-md-5 text-center d-flex align-items-center flex-column">
                 
-                <a href="" class="link_footer"><i class="fa-brands fa-instagram fa-3x"></i> </a>
+                <a href="" class="link_footer"><i class="fa-brands fa-instagram fa-3x bgIconCustom"></i> </a>
                 
-                {{-- <h5 class="text-white"> {{__('ui.follow')}} </h5> --}}
                 
             </div>
             

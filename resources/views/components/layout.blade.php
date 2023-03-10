@@ -27,8 +27,6 @@
 
 <body class="container container-custom body-custom">
 
-    <x-navbar/>
-
     {{$slot}}
 
     <x-footer/>

@@ -67,6 +67,12 @@
     
 }
 
+.dropdown-menu{
+
+    --bs-dropdown-min-width: 4rem !important;
+
+}
+
 
 
 /* SEZIONE SOTTO HEADER */

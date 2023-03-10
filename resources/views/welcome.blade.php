@@ -14,7 +14,7 @@
             </div>
             
         </section>
-        <ul class="dropdown flag-nav-custom d-flex justify-content-end pe-md-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <ul class="dropdown flag-nav-custom d-flex justify-content-end" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             @if(session('locale')=='es')
             <li><x-_locale lang="es"/></li>
             @elseif(session('locale')=='en')
@@ -188,7 +188,7 @@
                         
                         <img src="/media/{{$recensione->img}}.jpg" class="img_recensione_custom" alt="">
                         
-                        <p class="mt-3 fontReview"><i class="fa-solid fa-quote-left"></i> {{$recensione->testo}} <i class="fa-solid fa-quote-right"></i></p>
+                        <p class="mt-3 fontReview"><i class="fa-solid fa-quote-left"></i>{{$recensione->testo}} <i class="fa-solid fa-quote-right"></i></p>
                         
                     </div>
                 </div>
@@ -200,3 +200,12 @@
     </section>
     
 </x-layout>
+
+
+
+
+
+
+
+
+

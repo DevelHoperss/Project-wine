@@ -168,13 +168,13 @@ h2{
 
 .img_recensione_custom{
     /* height: 35vh; */
-    width: 17.2vw;
+    width: 100%;
     border-radius: 17px;
     /* margin-bottom: 25%; */
 }
 
 .title_review{
-    height: 20vh;
+    height: 10vh;
 }
 
 .h3_review{
@@ -183,16 +183,20 @@ h2{
 }
 
 .review_custom{
-    min-height: 80vh;
+    height: 100vh;
 }
 
 .fontReview{
     font-style: italic;
 }
-/* .row-custom-aboutUS{
-    min-height: 120vh;
-} */
 
+.faCustom{
+    font-size: 1.5vh;
+}
+
+.w3-animate-fading{
+    animation: fading 8s;
+}
 
 /* FOOTER */
 
@@ -231,6 +235,11 @@ h2{
     user-select: none;
     font-weight: bolder;
 }
+
+
+
+
+
 
 
 /* MEDIAQUERY */

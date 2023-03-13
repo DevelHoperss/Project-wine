@@ -154,33 +154,6 @@
                 
             </div>           
             
-            @php
-            $recensioni = array(
-            (object) [
-            'img'=>'Recensione1',
-            'testo'=>'Unica controindicazione, euforia irreversibile',
-            ],
-            (object) [
-            'img'=>'Recensione2',
-            'testo'=>'Ottimo anche sui dolci e per aperitivo!',
-            ],
-            (object) [
-            'img'=>'Recensione3',
-            'testo'=>'Rende il tavolo elegante',
-            ],
-            (object) [
-            'img'=>'Recensione4',
-            'testo'=>'Accostamento perfetto…',
-            ],
-            (object) [
-            'img'=>'Recensione5',
-            'testo'=>'Un vino maschio per donne di carattere',
-            ],
-            );
-            
-            @endphp
-            
-            
             {{-- @foreach ($recensioni as $recensione)
                 
                 <div class="col-12 col-md-4 mb-5 text-center d-flex align-items-center flex-column divReviewCustom">

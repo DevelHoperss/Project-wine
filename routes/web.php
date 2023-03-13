@@ -15,8 +15,6 @@ use App\Http\Controllers\PublicController;
 */
 
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [PublicController::class, 'home'])->name('home');
 
 Route::post('/lang/{lang}', [PublicController::class, 'setLanguage'])->name('setLocale');

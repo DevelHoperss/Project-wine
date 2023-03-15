@@ -40,8 +40,9 @@
 /* IMMAGINE HEADER */
 
 .logo_custom{
-    width: 25%;
-    margin-left: -10%;
+    width: 25vw;
+    margin-left: 32vw;
+    
 }
 
 .layer1-custom{
@@ -220,7 +221,7 @@ h2{
 }
 
 .bgIconCustom{
-    color: darkred;
+    color: whitesmoke;
 }
 
 /* CARD */
@@ -262,6 +263,7 @@ h2{
     
     .logo_custom{
         width: 70%;
+        margin-left: -3vw;
     }
     
     .section-custom{

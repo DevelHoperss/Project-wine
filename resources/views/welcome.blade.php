@@ -7,7 +7,7 @@
         
         <section class="d-flex justify-content-center align-items-center layer1-custom" id="divAbsolute">
                          
-                <img  src="media/fira-titolo.png" class="logo_custom" alt="">        
+                <img  src="media/fira-titolo.png" class="logo_custom text-center " alt="">        
             
         </section>
         

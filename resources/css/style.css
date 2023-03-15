@@ -40,10 +40,20 @@
 /* IMMAGINE HEADER */
 
 .logo_custom{
-    width: 20%;
-    height: 33vh;
+    width: 25%;
+    margin-left: -10%;
 }
 
+.layer1-custom{
+    position: absolute;
+    z-index: 1;
+}
+
+.layer2-custom{
+    position: relative;
+    top: 22vh;
+    z-index: 99;
+}
 
 .img_carousel_custom{
     width: 100%;
@@ -60,8 +70,6 @@
     list-style: none;
     text-align: center;
 }
-
-
 
 .bg-flag-custom{
     background-color: rgba(255, 255, 255, 0.363); 
@@ -98,7 +106,7 @@ h2{
 }
 
 .header_custom{
-    height: 40vh;
+    height: 30vh;
     background: linear-gradient(to bottom, #18122B 95%, #e9e8e8ef);
     /* background-color: var(--paletteHeader); */
     border-top-right-radius: 25px;
@@ -112,7 +120,7 @@ h2{
     background: linear-gradient(to bottom, #e9e8e8dd, transparent, transparent, antiquewhite), url(/public/media/vigneto.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     
 }
 
@@ -253,16 +261,23 @@ h2{
     }
     
     .logo_custom{
-        width: 80%;
+        width: 70%;
     }
     
     .section-custom{
         margin-top: 0px;
     }
     
+    .layer1-custom{
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+    }
+
     /* Messa a 40.5vh altrimenti fa lo scroll dell'header */
+    /* Diminuita a 32.5 per nuove dimensioni logo, niente problemi di scroll. -m */
     .header_custom{
-        height: 40.5vh; 
+        height: 32.5vh; 
     }
     
     .h3-custom{

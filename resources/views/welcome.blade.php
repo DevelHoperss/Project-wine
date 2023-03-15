@@ -5,17 +5,13 @@
     <header  class="header_custom mt-4">
         
         
-        <section>
-            
-            <div class="d-flex justify-content-center align-items-center">
-                
-                <img  src="media/fira-titolo.png" class="logo_custom" alt="">
-                
-            </div>
+        <section class="d-flex justify-content-center align-items-center layer1-custom" id="divAbsolute">
+                         
+                <img  src="media/fira-titolo.png" class="logo_custom" alt="">        
             
         </section>
         
-        <div class="col-12 col-md-12 d-flex justify-content-end">
+        <div class="col-12 col-md-12 d-flex justify-content-end layer2-custom">
             
             <ul class="dropdown flag-nav-custom" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 @if(session('locale')=='es')

@@ -273,7 +273,6 @@ h2{
     .layer1-custom{
         position: absolute;
         z-index: 1;
-        width: 100%;
     }
 
     /* Messa a 40.5vh altrimenti fa lo scroll dell'header */

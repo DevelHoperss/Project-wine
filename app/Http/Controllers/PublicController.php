@@ -30,6 +30,14 @@ class PublicController extends Controller
                 'img'=>'Recensione5',
                 'testo'=>'Un vino maschio per donne di carattere',
             ],
+            (object) [
+                'img'=>'Recensione6',
+                'testo'=>'Buono, anche oltre oceano..',
+            ],
+            (object) [
+                'img'=>'Recensione7',
+                'testo'=>'Perfetto, in ogni situazione',
+            ],
         );
 
         return view('welcome', compact('recensioni'));

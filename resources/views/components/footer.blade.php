@@ -12,7 +12,7 @@
             
             <div class="col-12 col-md-5 text-center d-flex align-items-center flex-column">
                 
-                <a href="https://www.facebook.com/profile.php?id=100090693954497" class="link_footer"><i class="fa-brands fa-facebook fa-3x bgIconCustom"></i> </a>
+                <a href="https://www.facebook.com/profile.php?id=100090693954497" class="link_footer" target="_blank"><i class="fa-brands fa-facebook fa-3x bgIconCustom"></i> </a>
                 
                 
             </div>
